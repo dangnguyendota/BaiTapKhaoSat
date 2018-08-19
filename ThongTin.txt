@@ -1,0 +1,20 @@
+﻿Họ và tên: Nguyễn Đăng Nguyên
+Trường: Đại học Bách Khoa Hà Nội
+Sinh viên năm thứ: 3
+Hiện tại chưa đi làm.
+Em đồng ý với số tiền đặt cọc.
+
+Code trên github:
+https://github.com/dangnguyendota/BaiTapKhaoSat
+
+Hướng dẫn chạy dịch chương trình:
+Chạy file BaiLamMau.py.
+Có thể chỉnh sửa để để kiểm tra với đề bài khác tương ứng.
+Các hàm chính của mỗi bài được gọi trong file __init__.py ở package tương ứng với bài tập đó.
+
+Bài làm gồm 7 packages tương ứng với 7 bài tập.
+- Mỗi package gồm 2 file:
+  + __init__.py : 
+  + Task.py : là file code chính của bài tập, chứa các hàm chính.
+
+Lời giải bài toán: Được comment ở đầu file Task mỗi package.

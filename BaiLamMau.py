@@ -29,7 +29,7 @@ print("Căn bậc 2 của 10.19:", BT1.sqrt(10.19))  # 3.1921779399024732
 # Lời giải bài tập 2:
 # Code nằm trong thư mục BT2/__init__.py, BT2/Task.py
 print("\n******************* Bài tập 2***********************")
-a = BT2.Point(2, 4, 5)
+a = BT2.Point(2, 4, 5) # Tạo điểm a với tọa độ (2, 4, 5)
 b = BT2.Point(4, 7, 9)
 c = BT2.Point(7, 9, 2)
 d = BT2.Point(30, 25, 56)

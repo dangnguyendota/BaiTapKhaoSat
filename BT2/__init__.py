@@ -1,5 +1,9 @@
 import BT2.Task
 
+__author__ = "Nguyễn Đăng Nguyên"
+__class__= "KSTN-CNTT-K60"
+__school__= "Đại học BKHN"
+
 class Point(Task.Point):
     """
     Call sang bên file BT2\Task

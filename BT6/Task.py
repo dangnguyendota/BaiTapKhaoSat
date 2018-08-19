@@ -5,7 +5,7 @@ Bài tập 6
 Tạo ngày: 19/8/2018 11:30PM
 Bởi: Nguyễn Đăng Nguyên
 Đề bài: Cho hàm 𝑓(𝑥) = 4𝑥^4 + 5𝑥^3 − 2𝑥^2 + 3𝑥 + 7. Viết chương trình tìm ít nhất một giá trị của 𝑥 (giá trị xấp xỉ) để 𝑓(𝑥) = 1000.
-Bài làm: Sử dụng phương pháp Newton, nếu x0 là nghiệm của phương trình f(x) thì x = x - f(x)/f'(x0) (x -> x0).Khởi tạo với x = 0.
+Bài làm: Sử dụng phương pháp Newton, nếu x0 là nghiệm của phương trình f(x) thì x = x0 - f(x)/f'(x0) (x -> x0).Khởi tạo với x = 0.
 Tìm đến khi nào f(x) có giá trị sấp sỉ kết quả cần tìm.
 """
 
