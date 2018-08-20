@@ -25,6 +25,9 @@ print("\n******************* Bài tập 1***********************")
 print("Căn bậc 2 của 2:", BT1.sqrt(2))  # 1.414213562373095
 print("Căn bậc 2 của 4:", BT1.sqrt(4))  # 2.0
 print("Căn bậc 2 của 10.19:", BT1.sqrt(10.19))  # 3.1921779399024732
+print("Căn bậc 2 của 2 (Sử dụng phương pháp mới):",BT1.newSqrt(2))
+print("Căn bậc 2 của 4 (Sử dụng phương pháp mới):", BT1.newSqrt(4))
+print("Căn bậc 2 của 10.19 (Sử dụng phương pháp mới):", BT1.newSqrt(10.19))
 
 # Lời giải bài tập 2:
 # Code nằm trong thư mục BT2/__init__.py, BT2/Task.py

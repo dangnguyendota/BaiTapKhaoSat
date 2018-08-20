@@ -5,8 +5,7 @@ Bài tập 4
 Tạo ngày: 19/8/2018 10:00PM
 Bởi: Nguyễn Đăng Nguyên
 Đề bài: .....
-Bài làm: df/dy0 = (df/dx0) / (dy0/dx0). mà phương trình y0 theo x0, x1 có rồi nên tính ra được dy0/dx0,
-tương tự ta tính được df/dx1 dựa vào df/dy1. Xong nhân ngược sang ra kết quả.
+Bài làm: df/dy = (df/dx) / (dy/dx). mà phương trình y theo x có rồi nên tính ra được dy/dx. Xong nhân ngược sang ra kết quả.
 """
 
 import numpy as np
@@ -19,5 +18,4 @@ def _get(input: np.ndarray, factor: np.ndarray, padding: np.ndarray):
     :param padding: phần bù thêm vào.
     :return:
     """
-    _tmp = np.array([factor[0][0], factor[1][1]])
-    return input * _tmp
+    return np.dot(factor, input)
